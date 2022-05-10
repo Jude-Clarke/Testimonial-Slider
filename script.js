@@ -18,10 +18,10 @@ for(let i = 0; i < testimonials.length; i++) {
           <img class="profile" src="${testimonials[i].image}" alt="${testimonials[i].name}">
           <div class="slide-control" data-carousel>
             <span class="prev" data-carousel-button="prev">
-              <img src="/images/icon-prev.svg" alt="">
+              <img src="images/icon-prev.svg" alt="">
             </span>
             <span class="next round" data-carousel-button="next">
-              <img src="/images/icon-next.svg" alt="">
+              <img src="images/icon-next.svg" alt="">
             </span>
           </div>
         </div>
@@ -29,7 +29,7 @@ for(let i = 0; i < testimonials.length; i++) {
     </div>
     <div class="slide-text">
       <div class="slide-text-container">
-        <img src="/images/pattern-quotes.svg" alt="">
+        <img src="images/pattern-quotes.svg" alt="">
         <p class="quote">“${testimonials[i].quote}”</p>
         <p class="citation">
           <span class="name">${testimonials[i].name}</span>
@@ -39,7 +39,7 @@ for(let i = 0; i < testimonials.length; i++) {
     </div>
   </div>
 
-  <img class="pattern-curve" src="/images/pattern-curve.svg" alt="">`
+  <img class="pattern-curve" src="images/pattern-curve.svg" alt="">`
   slider.appendChild(newLi);
 }
 
