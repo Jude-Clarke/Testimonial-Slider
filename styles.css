@@ -216,7 +216,7 @@ ul li.active {
     /* display: none; */
     /* opacity: 0; */
     position: absolute;
-    top: 350px;  /* position the top  edge of the element at the middle of the parent */
+    top: calc(50vh - 250px);  /* position the element in the middle of the view height */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     transform: translate(-50%, -50%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
     transition: all ease 1000ms;
